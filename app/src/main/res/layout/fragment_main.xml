@@ -1,0 +1,353 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context="com.videodownloader.imagesfiles.socialmedia.Fragments.MainFrag">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+
+        tools:context="com.videodownloader.imagesfiles.socialmedia.Fragments.MainFrag">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/topbar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:cardBackgroundColor="@color/skyblue">
+
+                <RelativeLayout
+                    android:id="@+id/help"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+
+                    android:orientation="horizontal">
+
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="75dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="false"
+                        android:focusable="true"
+                        android:src="@drawable/ic_help"
+                        app:tint="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="12dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="false"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingEnd="10dp"
+                        android:text="Help"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:cardBackgroundColor="#00bfff"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/webview_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:src="@drawable/websiteicon" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="72dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Go to a website and scan for videos/files"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/card_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="80dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#ee7600"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/social_media_download"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/topbar">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:src="@drawable/socialmedia_button" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="12dp"
+                        android:padding="3dp"
+                        android:text="Have sharable link to the social media post or website, click here."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="265dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#32cd32"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/paste_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:src="@drawable/download_icon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="13dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:paddingStart="15dp"
+                        android:text="Have direct download URL, click here."
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="163dp"
+            android:layout_height="159dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="265dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:cardBackgroundColor="@color/skyblue"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/view_downloads"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="left">
+
+                    <ImageView
+                        android:layout_width="100dp"
+
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:src="@drawable/downloded_complete" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="18dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:paddingStart="20dp"
+                        android:text="View Recently Downloaded Files."
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="450dp">
+
+
+            <RelativeLayout
+                android:id="@+id/share_main"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="29dp"
+                    android:src="@drawable/ic_share"
+                    android:tint="@android:color/black" />
+
+                <TextView
+
+                    android:layout_width="65dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="77dp"
+                    android:text="Share"
+                    android:textColor="@color/skyblue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:id="@+id/rate_main"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginEnd="29dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Rate Our App"
+                    android:textColor="@color/skyblue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_rate"
+                    android:tint="@android:color/black" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+    </RelativeLayout>
+</ScrollView>

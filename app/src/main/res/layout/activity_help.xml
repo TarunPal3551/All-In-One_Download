@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:gravity="center"
+            android:text="HELP"
+            android:textColor="@color/skyblue"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="1. Download a file from direct url."
+            android:textColor="@color/skyblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="-> If you have a download link of any file or video, paste it on 'Paste Direct File URL' to download ypur file." />
+
+
+        <TextView
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text=" NOTE : While downloading video from a website that does not provide direct download option, please use 'Download Video From Web Page OR Social Media Site'  option from main menu." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="2. Download video from Social Media"
+            android:textColor="@color/skyblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="-> For this, copy link to the social media post that you wish to download and use 'Download Video From Web Page OR Social Media Site' option  from main menu. Next choose the social media platform and paste your link to the provided box. Next, choose quality of video and it will be downloaded automatically." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="3. Download video from Website"
+            android:textColor="@color/skyblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="-> Go to webpage and click on download icon on bottom-right to scan for videos. " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="4. View Recent downloads"
+            android:textColor="@color/skyblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="-> Click on 'View Recent Downloaded Files'" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="5. Find file on internet"
+            android:textColor="@color/skyblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text=" -> Click on 'Browse web for file download'.In case of video, if the website provides download link, then  the video will be downloaded automatically, otherwise follow point 2 and 3." />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="Organization : Zape zone (thezapezone@gmail.com) "
+            android:textColor="@color/skyblue"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="Developer : Suhail Saifi (suhai14298@gmail.com) "
+            android:textColor="@color/skyblue"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</ScrollView>
